@@ -1,0 +1,35 @@
+.explorer {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid grey;
+  padding: 0px 20px;
+  display:flex;
+}
+.inputDIv{
+  border:none;
+  margin:15px auto;
+}
+h3 {
+  flex: 1;
+  cursor:pointer;
+  /* display: flex;
+  align-items: center; */
+}
+/* h3 span{margin-right:10px;
+  margin-top: 5px;} */
+/*
+} */
+
+.btn-block {
+  padding: 20px;
+}
+
+.btn-block>button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background: transparent;
+  color: black;
+ border:none;
+ outline:none;
+  cursor:pointer;
+}

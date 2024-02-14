@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+}
+.product {
+  border: 3px solid gray;
+  cursor:pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+  margin:10px;
+}
+.buttons>button {
+    padding: 15px;
+    border: 1px solid darkgrey;
+
+}
+.buttons{
+  text-align: center;
+    margin: 20px;
+}
+
+.product>img {
+  width: 100%;
+  height: 300px;
+}
+
+.product>h5 {
+  font-size: 16px;
+  text-align: center;
+  background: darkgray;
+  margin: 0;
+  padding: 15px;
+}

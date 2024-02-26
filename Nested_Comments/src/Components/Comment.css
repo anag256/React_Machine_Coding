@@ -1,0 +1,28 @@
+
+.commentContainer {
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid darkgray;
+    width: 800px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.profile>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comment {
+    margin-left: 30px;
+}
